@@ -1,0 +1,99 @@
+.fundo{
+    width: 800px;
+    height: 402px;
+    background: url(imagens/bg-repeat.jpg);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+
+.formulario{
+    width: 340px;
+    height: 380px;
+    margin-right: 60px;
+    background-color: white;
+    padding: 20px;
+}
+
+.mensagem-pagina{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.titulo{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.texto{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.titulo, .texto{
+    color: white;
+}
+
+.input{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+.campo{
+    position: relative;
+}
+
+.mensagem{
+    height: 100px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.campo-obrigatorio{
+    position: absolute;
+    font-size: 8px;
+    margin-left: 2px;
+    position: absolute;
+    bottom: 5px;
+    color: #F52E2E;
+    display: none;
+}
+
+.campo-obrigatorio-mensagem{
+    bottom: 10px;
+}
+
+.botao-enviar{
+    width: 300px;
+    height: 40px;
+    margin-top: 11px;
+    background: #3CCC87;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.botao-enviar:hover{
+    cursor: pointer;
+    background: #37bd7f;
+}
+
+.input.campo-preenchido{
+    border: 2px solid #00C22B;
+}
+
+.campo-obrigatorio.mostrar{
+    display: block;
+}
+
+.input.ativo{
+    border-color: #F52E2E;
+}
+
+
+
